@@ -1,4 +1,4 @@
-# 🩺 SISTEM INFORMASI PENGADUAN LAYANAN KESEHATAN  
+# 🩺 Selamat Datang di Panduan **APLIKASI SISTEM INFORMASI PENGADUAN LAYANAN KESEHATAN!**
 ### *Meningkatkan Efektivitas dan Transparansi Pelayanan Publik*
 
 ---
@@ -9,53 +9,51 @@
 - [🎯 Tujuan Pengembangan](#-tujuan-pengembangan)
 - [📊 Flowchart](#-flowchart)
 - [🗂️ ERD](#️-erd)
-- [💾 Struktur Basis Data](#-struktur-basis-data)
-- [💻 Penerapan dan Fitur Utama](#-penerapan-dan-fitur-utama)
-- [📈 Kesimpulan](#-kesimpulan)
+- [📁 Struktur Project](#-struktur-project)
+- [💻 Penjelasan dan Penggunaan Aplikasi](#-penjelasan-dan-penggunaan-aplikasi)
 
 ---
 
 ## 👥 **Profil Anggota**
 
-**Kelompok:  Sistem Informasi Pengaduan Layanan Kesehatan**  
-**Praktikum Sistem Basis Data – Universitas Mulawarman (2025)**  
+**Kelompok 22**
 
-| Nama | NIM | Kelas |
-|------|-----|--------|
-| Taufik Ramadhani | 2409116001 | Sistem Informasi A ‘23 |
-| Moch. Farris Alfiansyah | 2409116079 | Sistem Informasi A ‘23 |
-| Ghifari Al Azhar | 2409116059 | Sistem Informasi A ‘23 |
-| Yulius Pune | 2409116110 | Sistem Informasi A ‘23 |
+| **Nama** | **NIM** | **Kelas** | **GitHub Username** |
+|-----------|----------|------------|----------------------|
+| Taufik Ramadhani | 2409116001 | Sistem Informasi A '24 | [![GitHub](https://img.shields.io/badge/-Rofiif-black?logo=github&style=flat-square)](https://github.com/Rofiif) |
+| Moch. Farris Alfiansyah | 2409116079 | Sistem Informasi B '24 | [![GitHub](https://img.shields.io/badge/-Lintang-black?logo=github&style=flat-square)](https://github.com/Lintang) |
+| Ghifari Al Azhar | 2409116059 | Sistem Informasi B '24 | [![GitHub](https://img.shields.io/badge/-Rizky-black?logo=github&style=flat-square)](https://github.com/Rizky) |
+| Yulius Pune | 2409116110 | Sistem Informasi C '24 | [![GitHub](https://img.shields.io/badge/-Amir-black?logo=github&style=flat-square)](https://github.com/Amir) |
 
 ---
 
 ## 📌 **Deskripsi Project**
 
-Pelayanan publik yang **efektif, cepat tanggap, dan transparan** merupakan elemen penting dalam meningkatkan kesejahteraan masyarakat. Namun, di banyak daerah — terutama wilayah perbatasan — proses pengaduan masyarakat masih dilakukan secara manual melalui surat, kotak saran, atau penyampaian langsung.  
-Kondisi ini menyebabkan proses pengelolaan keluhan menjadi lambat, data rentan hilang, dan menghambat tindak lanjut oleh pihak berwenang.
+Pelayanan publik yang **efektif, cepat tanggap, dan transparan** merupakan hal penting dalam meningkatkan kesejahteraan masyarakat. Namun, di banyak daerah — terutama wilayah perbatasan — proses pengaduan masyarakat masih dilakukan secara manual melalui surat, kotak saran, atau penyampaian langsung.  
+Kondisi ini menyebabkan proses penanganan keluhan menjadi lambat, data mudah hilang, dan menyulitkan pihak berwenang dalam melakukan tindak lanjut laporan.
 
-Sebagai solusi, dikembangkanlah **Sistem Informasi Pengaduan Layanan Kesehatan** berbasis online untuk mendigitalisasi proses pelaporan masyarakat terhadap masalah pelayanan kesehatan. Sistem ini memungkinkan masyarakat untuk:
-- Menyampaikan pengaduan secara **online** kapan saja dan di mana saja.  
-- Melihat **status dan tindak lanjut** laporan secara *real time*.  
-- Mendapatkan **tips otomatis kesehatan** sesuai keluhan yang dilaporkan.  
+Sebagai solusi, dikembangkanlah **Sistem Informasi Pengaduan Layanan Kesehatan** berbasis online yang memungkinkan masyarakat menyampaikan pengaduan kapan saja dan di mana saja tanpa batas waktu dan jarak. Sistem ini menyimpan seluruh data secara **terpusat** menggunakan **basis data relasional (DB_HELIA)** sehingga setiap laporan dapat ditangani dengan lebih cepat, transparan, dan terukur.
 
-Pihak **admin** dan **ketua RT** dapat memantau pengaduan masyarakat, memverifikasi laporan, serta menindaklanjuti masalah berdasarkan wilayahnya.  
-Seluruh data tersimpan dalam **basis data terpusat (DB_HELIA)**, sehingga proses pengelolaan lebih aman, efisien, dan transparan.
+Sistem ini dilengkapi dengan:
+- Fitur pengaduan masyarakat dan pengaduan fasilitas kesehatan.  
+- Fitur log status untuk memantau perkembangan laporan.  
+- Fitur tips otomatis yang memberikan saran kesehatan sesuai keluhan.  
+- Fitur admin dan ketua RT untuk mengelola dan memverifikasi pengaduan masyarakat.  
 
 ---
 
 ## 🎯 **Tujuan Pengembangan**
-a. Meningkatkan efektivitas pelayanan publik dalam penanganan pengaduan sektor kesehatan.  
-b. Meningkatkan transparansi dan akuntabilitas data melalui sistem database terintegrasi.  
-c. Mendukung partisipasi aktif masyarakat dalam evaluasi dan pemantauan pelayanan kesehatan di lingkungannya.  
+a. Meningkatkan efektivitas pelayanan publik dalam proses penanganan dan tindak lanjut pengaduan masyarakat di sektor kesehatan.  
+b. Meningkatkan transparansi dan akuntabilitas dalam pengelolaan data pengaduan melalui sistem basis data terintegrasi.  
+c. Mendukung partisipasi aktif masyarakat dalam pemantauan dan evaluasi pelayanan kesehatan di lingkungannya.
 
 ---
 
 ## 📊 **Flowchart**
-1. Flowchart Umum Sistem  
-2. Flowchart Menu Login dan Register  
-3. Flowchart Pengaduan (User)  
-4. Flowchart Verifikasi dan Laporan (Admin/RT)  
+1. Flowchart Sistem Utama  
+2. Flowchart Menu Login & Register  
+3. Flowchart Menu Pengaduan (User)  
+4. Flowchart Verifikasi Pengaduan (Admin)  
 5. Flowchart Tips Otomatis  
 
 📎 [Klik di sini untuk melihat Flowchart Lengkap](https://app.diagrams.net/)
@@ -63,33 +61,23 @@ c. Mendukung partisipasi aktif masyarakat dalam evaluasi dan pemantauan pelayana
 ---
 
 ## 🗂️ **ERD**
-Entitas utama dalam sistem:
-- **Admin**  
-- **Ketua_RT**  
-- **Pengaduan_Faskes**  
-- **Pengaduan_Masyarakat**  
-- **Log_Status**  
+Entitas utama sistem:
+- **Admin**
+- **Ketua_RT**
+- **Pengaduan_Faskes**
+- **Pengaduan_Masyarakat**
+- **Log_Status**
 - **Tips_Otomatis**
 
-Relasi utama antar entitas:
-- `Users` → `Admin` (1:1)  
-- `Users` → `Ketua_RT` (1:1)  
-- `Users` → `Pengaduan` (1:N)  
-- `Pengaduan` → `Log_Status` (1:N)  
+Relasi utama:
+- `Users` ↔ `Admin` (1:1)  
+- `Users` ↔ `Ketua_RT` (1:1)  
+- `Users` ↔ `Pengaduan` (1:N)  
+- `Pengaduan` ↔ `Log_Status` (1:N)  
 - `Pengaduan_Masyarakat` ↔ `Tips_Otomatis` (N:M)
 
-📎 [Lihat ERD Logical & Relasional di Draw.io](https://app.diagrams.net/)
+📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
 
 ---
 
-## 💾 **Struktur Basis Data**
-
-### 🔹 Tabel Utama
-1. **Admin** — Menyimpan data pengelola wilayah.  
-2. **Ketua_RT** — Menyimpan data pengurus lingkungan (wilayah pelapor).  
-3. **Pengaduan_Faskes** — Menyimpan laporan terkait fasilitas kesehatan.  
-4. **Pengaduan_Masyarakat** — Menyimpan data pelapor & kondisi kesehatan.  
-5. **Log_Status** — Mencatat perubahan status pengaduan secara kronologis.  
-6. **Tips_Otomatis** — Berisi saran kesehatan otomatis berdasarkan keluhan.
-
-### 🔹 Contoh Database
+## 📁 **Struktur Project**
