@@ -14,6 +14,7 @@
 - [👥 Profil Anggota](#-profil-anggota)
 - [📌 Deskripsi Project](#-deskripsi-project)
 - [🎯 Tujuan Pengembangan](#-tujuan-pengembangan)
+- [⚙️ FITUR PROGRAM](#-fitur-program)
 - [📊 Flowchart](#-flowchart)
 - [🗂️ ERD](#️-erd)
 - [📁 Struktur Project](#-struktur-project)
