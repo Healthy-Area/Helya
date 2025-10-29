@@ -1,10 +1,58 @@
-# Helya
-# 🩺 Deskripsi Singkat Program
-Program ini merupakan Sistem Informasi Pengaduan Layanan Kesehatan Berbasis Online yang dikembangkan sebagai solusi untuk meningkatkan kualitas pelayanan publik di bidang kesehatan. Program ini bertujuan untuk menyediakan media digital yang mempermudah masyarakat dalam menyampaikan keluhan, saran, atau laporan terkait layanan kesehatan tanpa harus datang langsung ke fasilitas pelayanan kesehatan.
+# 🩺 SISTEM INFORMASI PENGADUAN LAYANAN KESEHATAN
 
-Dengan memanfaatkan teknologi berbasis web dan sistem basis data terintegrasi, setiap pengaduan masyarakat dapat dicatat, dikelola, dan dipantau secara efisien. Pengguna dapat melakukan registrasi akun, mengisi formulir pengaduan, mengunggah bukti pendukung, serta memantau status tindak lanjut laporan secara real time. Pihak admin atau petugas kesehatan dapat dengan mudah mengelola data pengaduan, memberikan respon, serta melakukan analisis terhadap jenis-jenis laporan yang masuk untuk meningkatkan mutu pelayanan.
+Selamat Datang di Panduan **Sistem Informasi Pengaduan Layanan Kesehatan**!
 
-Dari sisi teknis, sistem ini menerapkan prinsip Object-Oriented Programming (OOP) dalam proses pengembangan, seperti penggunaan encapsulation untuk menjaga keamanan data pengguna, inheritance dalam pengelolaan kelas-kelas objek, serta abstraction dan polymorphism dalam perancangan modul yang fleksibel. Pendekatan ini membuat sistem lebih terstruktur, mudah dipelihara, dan dapat dikembangkan lebih lanjut sesuai kebutuhan instansi.
+---
 
-Melalui implementasi sistem ini, diharapkan proses pengaduan masyarakat menjadi lebih cepat, transparan, dan akuntabel. Selain itu, sistem ini juga dapat mendukung partisipasi aktif masyarakat dalam peningkatan mutu pelayanan kesehatan di lingkungannya. Dengan adanya integrasi data pengaduan secara digital, pemerintah atau lembaga kesehatan dapat melakukan evaluasi berbasis data (data-driven decision making) untuk meningkatkan efektivitas pelayanan publik.
-# 
+## 📚 Daftar Isi
+- [👥 Profil Anggota](#-profil-anggota)
+- [🧠 Deskripsi Project](#-deskripsi-project)
+- [📊 Flowchart](#-flowchart)
+- [🗂️ ERD](#️-erd)
+- [📁 Struktur Project](#-struktur-project)
+- [💻 Panduan dan Penggunaan Aplikasi](#-panduan-dan-penggunaan-aplikasi)
+
+---
+
+## 👥 Profil Anggota  
+**Kelompok X**
+
+| Nama | NIM | Kelas | Username |
+|------|-----|--------|-----------|
+| Yulius Ganteng | 2309116XXX | Sistem Informasi A '23 | 🧑‍💻 Yulius |
+| (Anggota 2) | 2309116XXX | Sistem Informasi A '23 | 👩‍💻 Nama2 |
+| (Anggota 3) | 2309116XXX | Sistem Informasi A '23 | 👨‍💻 Nama3 |
+| (Anggota 4) | 2309116XXX | Sistem Informasi A '23 | 👩‍💻 Nama4 |
+
+---
+
+## 🧠 Deskripsi Project
+Program ini merupakan **Sistem Informasi Pengaduan Layanan Kesehatan Berbasis Online** yang dikembangkan untuk meningkatkan efektivitas dan transparansi pelayanan publik di bidang kesehatan.  
+Melalui aplikasi ini, masyarakat dapat menyampaikan keluhan, saran, maupun laporan terkait layanan kesehatan secara cepat dan efisien tanpa perlu datang langsung ke fasilitas kesehatan.
+
+Aplikasi ini mendukung proses:
+- Pengajuan pengaduan secara daring (online)
+- Pelacakan status pengaduan
+- Manajemen data oleh admin/petugas
+- Analisis laporan untuk peningkatan mutu pelayanan
+
+Secara teknis, sistem ini dikembangkan menggunakan paradigma **Object-Oriented Programming (OOP)** dengan menerapkan konsep **encapsulation**, **inheritance**, **abstraction**, **polymorphism**, dan **interface** untuk menciptakan struktur kode yang modular, aman, dan mudah dikembangkan.  
+
+Tujuan utama dari pengembangan sistem ini adalah:
+1. Meningkatkan efektivitas penanganan pengaduan masyarakat.
+2. Meningkatkan transparansi dan akuntabilitas dalam pengelolaan data.
+3. Mendukung partisipasi aktif masyarakat dalam evaluasi layanan kesehatan.
+
+---
+
+## 📊 Flowchart
+📎 [Klik di sini untuk melihat Flowchart Program](https://app.diagrams.net/)  
+
+---
+
+## 🗂️ ERD
+📎 [Klik di sini untuk melihat ERD (Entity Relationship Diagram)](https://app.diagrams.net/)  
+
+---
+
+## 📁 Struktur Project
