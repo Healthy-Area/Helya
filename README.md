@@ -1,6 +1,12 @@
-# 🩺 Selamat Datang di Panduan 
-**APLIKASI SISTEM INFORMASI PENGADUAN LAYANAN KESEHATAN!**
-### *Meningkatkan Efektivitas dan Transparansi Pelayanan Publik*
+<div align="center">
+
+# 🩺 **Selamat Datang di Panduan**
+
+### 🧠 **APLIKASI SISTEM INFORMASI PENGADUAN LAYANAN KESEHATAN**
+
+*Meningkatkan Efektivitas dan Transparansi Pelayanan Publik*
+
+</div>
 
 ---
 
