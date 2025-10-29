@@ -118,6 +118,12 @@ Relasi utama:
 - `Pengaduan` ↔ `Log_Status` (1:N)  
 - `Pengaduan_Masyarakat` ↔ `Tips_Otomatis` (N:M)
 
+📌ERD LOGICAL
+<img width="491" height="772" alt="image" src="https://github.com/user-attachments/assets/563eefd2-d33a-4f38-864b-2d4c26030152" />
+📌ERD RELATIONAL
+<img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
+
+
 📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
 
 ---
