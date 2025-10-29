@@ -50,6 +50,36 @@ c. Mendukung partisipasi aktif masyarakat dalam pemantauan dan evaluasi pelayana
 
 ---
 
+## ⚙️ FITUR PROGRAM
+### 👤 Pengguna (Masyarakat)
+- Registrasi dan login akun.
+- Mengirimkan laporan pengaduan terkait fasilitas kesehatan.
+- Melihat status tindak lanjut laporan secara real time.
+- Mendapatkan tips otomatis sesuai jenis pengaduan.
+
+### 🧑‍💼 Admin
+- Melihat seluruh laporan yang masuk dari masyarakat.
+- Memverifikasi dan memperbarui status laporan (*Menunggu, Diproses, Selesai*).
+- Mengelola data pengguna dan wilayah kerja.
+- Menyediakan riwayat dan statistik pengaduan.
+
+### 👥 Ketua RT
+- Mengelola laporan dari wilayahnya.
+- Menjadi penghubung antara masyarakat dan admin.
+- Memantau perkembangan tindak lanjut laporan.
+
+---
+
+## 🧱 PENERAPAN OOP (Object-Oriented Programming)
+Program ini menerapkan **5 Pilar OOP**:
+1. **Encapsulation** → Setiap entitas seperti *Admin*, *Pengaduan*, *RT*, dan *Tips* dibuat dalam class terpisah dengan atribut privat dan method publik.  
+2. **Inheritance** → Class `Pengaduan_Faskes` dan `Pengaduan_Masyarakat` mewarisi atribut umum dari class `Pengaduan`.  
+3. **Abstraction** → Fungsi-fungsi pengelolaan data (CRUD) disembunyikan di balik antarmuka database.  
+4. **Polymorphism** → Method `tampilkanInfo()` digunakan secara berbeda pada setiap subclass pengaduan.  
+5. **Interface** → Interface `DatabaseOperation` diterapkan untuk mengatur method standar (insert, update, delete, select).
+
+---
+
 ## 📊 **Flowchart**
 1. Flowchart Sistem Utama  
 2. Flowchart Menu Login & Register  
