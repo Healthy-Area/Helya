@@ -11,14 +11,21 @@
 ---
 
 ## 📚 **Daftar Isi**
+
 - [👥 Profil Anggota](#-profil-anggota)
 - [📌 Deskripsi Project](#-deskripsi-project)
 - [🎯 Tujuan Pengembangan](#-tujuan-pengembangan)
-- [⚙️ FITUR PROGRAM](#-fitur-program)
+- [⚙️ Fitur Program](#️-fitur-program)
+  - [👤 Pengguna (Masyarakat)](#-pengguna-masyarakat)
+  - [🧑‍💼 Admin](#-admin)
+  - [👥 Ketua RT](#-ketua-rt)
+- [🧱 Penerapan OOP](#-penerapan-oop-object-oriented-programming)
 - [📊 Flowchart](#-flowchart)
 - [🗂️ ERD](#️-erd)
 - [📁 Struktur Project](#-struktur-project)
-- [💻 Penjelasan dan Penggunaan Aplikasi](#-penjelasan-dan-penggunaan-aplikasi)
+- [💻 Cara Penggunaan Program](#-cara-penggunaan-program)
+- [📅 Informasi Tambahan](#-informasi-tambahan)
+
 
 ---
 
