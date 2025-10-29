@@ -1,1 +1,5 @@
 # Helya
+# 🩺 Deskripsi Singkat Program
+Program ini merupakan Sistem Informasi Pengaduan Layanan Kesehatan Berbasis Online yang dirancang untuk mempermudah masyarakat dalam menyampaikan keluhan atau pengaduan terkait pelayanan kesehatan secara cepat, aman, dan transparan.
+Melalui sistem ini, pengguna dapat membuat laporan pengaduan kapan saja dan di mana saja tanpa harus datang langsung ke instansi terkait. Setiap laporan akan tersimpan dalam basis data terpusat, sehingga memudahkan pihak admin atau petugas kesehatan dalam memantau, menindaklanjuti, dan memberikan tanggapan terhadap setiap pengaduan secara tepat waktu.
+Sistem ini juga mendukung prinsip transparansi dan akuntabilitas publik, dengan menyediakan fitur pelacakan status pengaduan, riwayat laporan, serta notifikasi tindak lanjut. Implementasi program ini diharapkan dapat meningkatkan efektivitas pelayanan publik di sektor kesehatan, memperkuat partisipasi masyarakat, dan mengurangi potensi kehilangan data dalam proses administrasi manual.
