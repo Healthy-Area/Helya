@@ -133,3 +133,10 @@ Relasi utama:
 ---
 
 ## 📁 **Struktur Project**
+
+## 🧩 LIBRARY ATAU FRAMEWORK YANG DIGUNAKAN
+- **Java**  
+- **MySQL / XAMPP** → untuk penyimpanan data pengaduan  
+- **Draw.io** → pembuatan *ERD* dan *Flowchart*  
+- **Tkinter / NetBeans GUI Builder** → jika ada tampilan GUI  
+- **Pandas / JDBC Connector** → koneksi ke database  
