@@ -141,8 +141,8 @@ Relasi utama:
 ## 🧩 **Use Case Diagram**
 > Berikut merupakan ilustrasi hubungan antara aktor (Admin, Ketua RT, dan Pengguna) dengan fungsionalitas utama dalam sistem pengaduan layanan kesehatan.
 
-🖼️ *(<img width="1002" height="636" alt="image" src="https://github.com/user-attachments/assets/e5f203c9-59b0-4439-a096-949e50e1d6f8" />
-)*
+<img width="1002" height="636" alt="image" src="https://github.com/user-attachments/assets/e5f203c9-59b0-4439-a096-949e50e1d6f8" />
+
 
 ```markdown
 <img width="600" alt="Use Case Diagram" src="LINK_GAMBAR_KAMU_DI_SINI" />
