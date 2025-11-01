@@ -123,11 +123,15 @@ Relasi utama:
 - `Users` ↔ `Pengaduan` (1:N)  
 - `Pengaduan` ↔ `Log_Status` (1:N)  
 - `Pengaduan_Masyarakat` ↔ `Tips_Otomatis` (N:M)
+  
 
 📌 **ERD LOGICAL**
+
 <img width="491" height="772" alt="image" src="https://github.com/user-attachments/assets/563eefd2-d33a-4f38-864b-2d4c26030152" />
 
+
 📌 **ERD RELATIONAL**
+
 <img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
 
 📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
@@ -137,7 +141,8 @@ Relasi utama:
 ## 🧩 **Use Case Diagram**
 > Berikut merupakan ilustrasi hubungan antara aktor (Admin, Ketua RT, dan Pengguna) dengan fungsionalitas utama dalam sistem pengaduan layanan kesehatan.
 
-🖼️ *(Masukkan gambar Use Case Diagram di bawah ini)*
+🖼️ *(<img width="1002" height="636" alt="image" src="https://github.com/user-attachments/assets/e5f203c9-59b0-4439-a096-949e50e1d6f8" />
+)*
 
 ```markdown
 <img width="600" alt="Use Case Diagram" src="LINK_GAMBAR_KAMU_DI_SINI" />
