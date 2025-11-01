@@ -149,3 +149,5 @@ Relasi utama:
 ## 💻 **Cara Penggunaan Program**
 
 ## 📅 **Informasi Tambahan**
+
+[⬆️ Kembali ke Awal](#-selamat-datang-di-panduan)
