@@ -19,10 +19,10 @@
 - [🧱 Penerapan OOP](#-penerapan-oop-object-oriented-programming)
 - [📊 Flowchart](#-flowchart)
 - [🗂️ ERD](#️-erd)
+- [🧩 Use Case Diagram](#-use-case-diagram)
 - [📁 Struktur Project](#-struktur-project)
 - [💻 Cara Penggunaan Program](#-cara-penggunaan-program)
 - [📅 Informasi Tambahan](#-informasi-tambahan)
-
 
 ---
 
@@ -124,25 +124,20 @@ Relasi utama:
 - `Pengaduan` ↔ `Log_Status` (1:N)  
 - `Pengaduan_Masyarakat` ↔ `Tips_Otomatis` (N:M)
 
-📌ERD LOGICAL
-
+📌 **ERD LOGICAL**
 <img width="491" height="772" alt="image" src="https://github.com/user-attachments/assets/563eefd2-d33a-4f38-864b-2d4c26030152" />
 
-
-📌ERD RELATIONAL
-
+📌 **ERD RELATIONAL**
 <img width="569" height="785" alt="image" src="https://github.com/user-attachments/assets/07dae1e0-0166-4830-a278-d5d173b74e04" />
-
 
 📎 [Klik di sini untuk melihat ERD Logical dan Relasional](https://app.diagrams.net/)
 
 ---
 
-## 📁 **Struktur Project**
+## 🧩 **Use Case Diagram**
+> Berikut merupakan ilustrasi hubungan antara aktor (Admin, Ketua RT, dan Pengguna) dengan fungsionalitas utama dalam sistem pengaduan layanan kesehatan.
 
-## 🧩 LIBRARY ATAU FRAMEWORK YANG DIGUNAKAN
-- **Java**  
-- **MySQL / XAMPP** → untuk penyimpanan data pengaduan  
-- **Draw.io** → pembuatan *ERD* dan *Flowchart*  
-- **Tkinter / NetBeans GUI Builder** → jika ada tampilan GUI  
-- **Pandas / JDBC Connector** → koneksi ke database  
+🖼️ *(Masukkan gambar Use Case Diagram di bawah ini)*
+
+```markdown
+<img width="600" alt="Use Case Diagram" src="LINK_GAMBAR_KAMU_DI_SINI" />
