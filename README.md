@@ -93,24 +93,16 @@ Program ini menerapkan **5 Pilar OOP**:
 
 ## 📊 **Flowchart**
 ### 1. Login
-![Flowchart Login](7a86f7b2-9313-49e6-b2ed-2e6824b9d03a.png)
+<img width="416" height="603" alt="image" src="https://github.com/user-attachments/assets/30f25f36-bedf-4eee-b2aa-cc21ef1899b4" />
 
 ### 2. Menu User
-![Flowchart Menu User](2bdcf28d-4163-4ab5-93e6-8a30b95a8ff4.png)
+<img width="826" height="726" alt="image" src="https://github.com/user-attachments/assets/3e2d73fb-531f-47e5-b67c-19859f59aabb" />
 
 ### 3. Menu Admin
-![Flowchart Menu Admin](bc243fd7-ad74-4406-a35e-d099af23762c.png)
+<img width="990" height="732" alt="image" src="https://github.com/user-attachments/assets/a633ac51-4339-4735-863d-81825682d2b4" />
 
 ### 4. Kelola User
-![Flowchart Kelola User](4f0c5fd7-70ba-4f5e-9279-45d7571fbc3f.png)
-
-1. Flowchart Sistem Utama  
-2. Flowchart Menu Login & Register  
-3. Flowchart Menu Pengaduan (User)  
-4. Flowchart Verifikasi Pengaduan (Admin)  
-5. Flowchart Tips Otomatis
-
-6. 
+<img width="579" height="676" alt="image" src="https://github.com/user-attachments/assets/009f6c74-2333-4e31-8d80-d47289766b5a" />
 
 📎 [Klik di sini untuk melihat Flowchart Lengkap](https://app.diagrams.net/?src=about#G1l_0vRv375RYu1bvGWVfsu-FzTx-2HyA5#%7B%22pageId%22%3A%22QMHwvMKPtTTwxvK021AD%22%7D)
 
