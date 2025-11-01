@@ -92,13 +92,27 @@ Program ini menerapkan **5 Pilar OOP**:
 ---
 
 ## 📊 **Flowchart**
+### 1. Login
+![Flowchart Login](7a86f7b2-9313-49e6-b2ed-2e6824b9d03a.png)
+
+### 2. Menu User
+![Flowchart Menu User](2bdcf28d-4163-4ab5-93e6-8a30b95a8ff4.png)
+
+### 3. Menu Admin
+![Flowchart Menu Admin](bc243fd7-ad74-4406-a35e-d099af23762c.png)
+
+### 4. Kelola User
+![Flowchart Kelola User](4f0c5fd7-70ba-4f5e-9279-45d7571fbc3f.png)
+
 1. Flowchart Sistem Utama  
 2. Flowchart Menu Login & Register  
 3. Flowchart Menu Pengaduan (User)  
 4. Flowchart Verifikasi Pengaduan (Admin)  
-5. Flowchart Tips Otomatis  
+5. Flowchart Tips Otomatis
 
-📎 [Klik di sini untuk melihat Flowchart Lengkap](https://app.diagrams.net/)
+6. 
+
+📎 [Klik di sini untuk melihat Flowchart Lengkap](https://app.diagrams.net/?src=about#G1l_0vRv375RYu1bvGWVfsu-FzTx-2HyA5#%7B%22pageId%22%3A%22QMHwvMKPtTTwxvK021AD%22%7D)
 
 ---
 
