@@ -149,5 +149,29 @@ Relasi utama:
 ## 💻 **Cara Penggunaan Program**
 
 ## 📅 **Informasi Tambahan**
+🧩 **Kebutuhan Sistem**
+
+Sebelum menjalankan program **Sistem Informasi Pengaduan Layanan Kesehatan**, pastinya kami menggunakan beberapa perangkat yang sudah memenuhi beberapa kebutuhan sistem berikut:
+
+- **🧱 JDK 23**  
+  Java Development Kit (JDK) berisi kompiler *javac*, pustaka standar Java, serta alat bantu lain yang diperlukan untuk menulis, menjalankan, dan menguji program berbasis Java.
+
+- **🖥️ NetBeans IDE 22**  
+  NetBeans merupakan lingkungan pengembangan terintegrasi (IDE) yang mendukung berbagai bahasa pemrograman seperti Java, PHP, dan C++.  
+  Versi terbaru memiliki fitur untuk *debugging*, integrasi Git, dan pengembangan aplikasi berbasis web maupun desktop.
+
+- **⚙️ XAMPP**  
+  Diperlukan untuk menjalankan aplikasi yang membutuhkan server web, basis data, serta bahasa pemrograman *server-side*.  
+  XAMPP mempermudah proses konfigurasi dan pengelolaan lingkungan pengembangan.
+
+- **💾 MySQL**  
+  Merupakan sistem manajemen basis data relasional (RDBMS) yang menggunakan bahasa SQL.  
+  MySQL berfungsi untuk menyimpan, mengatur, dan mengelola data agar tetap akurat, aman, serta mudah diakses kapan pun dibutuhkan.
+
+- **🔗 MySQL Connector (JDBC)**  
+  Pustaka tambahan yang digunakan untuk menghubungkan aplikasi Java dengan basis data MySQL.  
+  Dengan konektor ini, aplikasi dapat melakukan proses komunikasi dan pertukaran data dengan database secara langsung.
+
+---
 
 [⬆️ Kembali ke Awal](#-selamat-datang-di-panduan)
