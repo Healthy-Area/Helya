@@ -1,4 +1,4 @@
-<div align="center">
+  <div align="center">
 
 # 🩺 **Selamat Datang di Panduan**
 
@@ -78,12 +78,22 @@ c. Mendukung partisipasi aktif masyarakat dalam pemantauan dan evaluasi pelayana
 
 ## 🧱 PENERAPAN OOP (Object-Oriented Programming)
 Program ini menerapkan **5 Pilar OOP**:
-1. **Encapsulation** → Setiap entitas seperti *Admin*, *Pengaduan*, *RT*, dan *Tips* dibuat dalam class terpisah dengan atribut privat dan method publik.  
-2. **Inheritance** → Class `Pengaduan_Faskes` dan `Pengaduan_Masyarakat` mewarisi atribut umum dari class `Pengaduan`.  
-3. **Abstraction** → Fungsi-fungsi pengelolaan data (CRUD) disembunyikan di balik antarmuka database.  
-4. **Polymorphism** → Method `tampilkanInfo()` digunakan secara berbeda pada setiap subclass pengaduan.  
-5. **Interface** → Interface `DatabaseOperation` diterapkan untuk mengatur method standar (insert, update, delete, select).
+1. **Encapsulation** → Setiap entitas seperti *Admin*, *Pengaduan*, *RT*, dan *Tips* dibuat dalam class terpisah dengan atribut privat dan method publik.
+   
+    <img width="775" height="70" alt="image" src="https://github.com/user-attachments/assets/a1649291-ccfb-4ae8-9f25-a58c3250c488" />
 
+2. **Inheritance** → Class `Pengaduan_Faskes` dan `Pengaduan_Masyarakat` mewarisi atribut umum dari class `Pengaduan`.
+   <img width="790" height="97" alt="image" src="https://github.com/user-attachments/assets/3f64c0c7-99dd-464d-8a0d-cae23039c164" />
+
+3. **Abstraction** → Fungsi-fungsi pengelolaan data (CRUD) disembunyikan di balik antarmuka database.
+   <img width="698" height="256" alt="image" src="https://github.com/user-attachments/assets/dd1b8307-c133-46c2-80c9-d4ff2e312b98" />
+
+4. **Polymorphism** → Method `tampilkanInfo()` digunakan secara berbeda pada setiap subclass pengaduan.
+   <img width="634" height="63" alt="image" src="https://github.com/user-attachments/assets/eb85c5c4-044d-4718-b772-c3427d1dde5f" />
+
+   
+5. **Interface** → Interface `DatabaseOperation` diterapkan untuk mengatur method standar (insert, update, delete, select).
+   <img width="372" height="171" alt="image" src="https://github.com/user-attachments/assets/25830025-fa69-4a6d-80c0-4d76b36e95ee" />
 ---
 
 ## 📊 **Flowchart**
