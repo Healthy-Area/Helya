@@ -62,11 +62,6 @@ c. Mendukung partisipasi aktif masyarakat dalam pemantauan dan evaluasi pelayana
 ---
 
 ## ⚙️ FITUR PROGRAM
-### 👤 Pengguna (Masyarakat)
-- Registrasi dan login akun.
-- Mengirimkan laporan pengaduan terkait fasilitas kesehatan.
-- Melihat status tindak lanjut laporan secara real time.
-- Mendapatkan tips otomatis sesuai jenis pengaduan.
 
 ### 🧑‍💼 Admin
 - Melihat seluruh laporan yang masuk dari masyarakat.
