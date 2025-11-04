@@ -53,6 +53,19 @@ jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL
 // Biarkan panel mengikuti ukuran isi-natural, jangan dipaksa tinggi gede
 jPanel1.setPreferredSize(null);
 jPanel1.revalidate();
+jButton4.setBorderPainted(false);
+jButton4.setFocusPainted(false);
+jButton4.setContentAreaFilled(false);
+jButton4.setOpaque(false);
+
+jButton4.addActionListener(new ActionListener() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        loadData(); // Re-load data
+        JOptionPane.showMessageDialog(null, "Data telah diperbarui!");
+    }
+});
+
 
 }
 
@@ -71,6 +84,7 @@ jPanel1.revalidate();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jButton4 = new javax.swing.JButton();
         jButton2 = new view.iconButton("")
         ;
         jButton3 = new view.iconButton("");
@@ -100,6 +114,9 @@ jPanel1.revalidate();
         jScrollPane1.setViewportView(jTable1);
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 550, 720, -1));
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/refresh.png"))); // NOI18N
+        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 520, -1, -1));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/pengkes-img.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -335,6 +352,7 @@ public void showDetailKesmas(String idPengaduan) {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;

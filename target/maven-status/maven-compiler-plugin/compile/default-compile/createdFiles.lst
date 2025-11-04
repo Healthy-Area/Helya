@@ -171,6 +171,7 @@ view\pengaduanFasilitas$2.class
 view\RUpdateFasKes$5.class
 view\homePage.class
 view\keluar$5$1.class
+view\homePage$5.class
 view\detailKesmas$5$1.class
 model\entity\logStatus.class
 view\login$6.class

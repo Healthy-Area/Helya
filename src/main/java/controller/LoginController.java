@@ -25,10 +25,14 @@ public class LoginController {
             session.beginTransaction();
 
             // 🔹 Cek admin
-            Query<admin> adminQuery = session.createQuery("FROM admin WHERE username = :u AND password = :p", admin.class);
+            Query<admin> adminQuery = session.createQuery(
+                    "FROM admin WHERE BINARY(username) = :u AND BINARY(password) = :p",
+                    admin.class
+            );
             adminQuery.setParameter("u", username);
             adminQuery.setParameter("p", password);
             admin adminUser = adminQuery.uniqueResult();
+
 
             if (adminUser != null) {
                 LoginSession.setUsername(adminUser.getUsername());
@@ -38,11 +42,14 @@ public class LoginController {
                 
             }
 
-             Query<ketuaRt> rtQuery = session.createQuery(
-                    "FROM ketuaRt WHERE username = :u AND password = :p", ketuaRt.class);
+            Query<ketuaRt> rtQuery = session.createQuery(
+                    "FROM ketuaRt WHERE BINARY(username) = :u AND BINARY(password) = :p",
+                    ketuaRt.class
+            );
             rtQuery.setParameter("u", username);
             rtQuery.setParameter("p", password);
             ketuaRt rtUser = rtQuery.uniqueResult();
+
 
             if (rtUser != null) {
                 // ✅ Simpan session ketua RT

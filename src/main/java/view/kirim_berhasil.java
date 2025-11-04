@@ -36,6 +36,13 @@ public class kirim_berhasil extends javax.swing.JDialog {
         super(parent, modal);
         initComponents();
 
+                setResizable(false);
+        setLocationRelativeTo(null);
+        
+//        untuk cancel
+        cancelButton.setVisible(false);
+        cancelButton.setEnabled(false);
+        cancelButton.setFocusable(false);
         // Close the dialog when Esc is pressed
         String cancelName = "cancel";
         InputMap inputMap = getRootPane().getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
