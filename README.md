@@ -145,6 +145,8 @@ Relasi utama:
 
 ## 📁 **Struktur Project**
 
+<img width="452" height="812" alt="image" src="https://github.com/user-attachments/assets/50310517-14de-4d33-85bd-47991befb19b" />
+
 
 ## 💻 **Cara Penggunaan Program**
 
