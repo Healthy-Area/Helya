@@ -32,7 +32,7 @@
 
 | **Nama** | **NIM** | **Kelas** | **GitHub Username** |
 |-----------|----------|------------|----------------------|
-| Taufik Ramadhani | 2409116001 | Sistem Informasi A '24 | [![GitHub]([https://img.shields.io/badge/-Oxcyy-black?logo=github&style=flat-square)](https://github.com/Oxcyy](https://github.com/superamarr)) |
+| Taufik Ramadhani | 2409116001 | Sistem Informasi A '24 | [![GitHub]([https://img.shields.io/badge/-superamarr-black?logo=github&style=flat-square)](https://github.com/superamarr]) |
 | Moch. Farris Alfiansyah | 2409116079 | Sistem Informasi B '24 | [![GitHub](https://img.shields.io/badge/-Farris636-black?logo=github&style=flat-square)](https://github.com/Farris636) |
 | Ghifari Al Azhar | 2409116059 | Sistem Informasi B '24 | [![GitHub](https://img.shields.io/badge/-gfarlz-black?logo=github&style=flat-square)](https://github.com/gfarlz) |
 | Yulius Pune | 2409116110 | Sistem Informasi C '24 | [![GitHub](https://img.shields.io/badge/-Oxcyy-black?logo=github&style=flat-square)](https://github.com/Oxcyy) |
