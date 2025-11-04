@@ -163,7 +163,7 @@ Pengguna wajib mengisi **Username** dan **Password** yang telah terdaftar, kemud
 Setelah berhasil masuk, akan muncul notifikasi konfirmasi login seperti berikut:
 
 <p align="center">
-  <img width="802" height="559" alt="Login Success" src="https://github.com/user-attachments/assets/3f6383ba-36dd-4aa0-b8f2-f989676b41da" />
+  <img width="802" height="559" alt="Screenshot 2025-11-04 221446 1" src="https://github.com/user-attachments/assets/b103e36f-1136-4941-9128-95db7b74ad79" />
 </p>
 
 Tampilan ini menunjukkan bahwa pengguna telah berhasil melakukan autentikasi dan siap menggunakan seluruh fitur di dalam sistem.
@@ -173,7 +173,7 @@ Tampilan ini menunjukkan bahwa pengguna telah berhasil melakukan autentikasi dan
 #### 🏠 **Beranda Pengguna**
 
 <p align="center">
-  <img width="799" height="667" alt="User Dashboard" src="https://github.com/user-attachments/assets/0849f23f-9d46-43d2-8acb-67e813040375.png" />
+  <img width="799" height="667" alt="Screenshot 2025-11-04 231351 1" src="https://github.com/user-attachments/assets/ee69ca2e-41b5-454d-bf37-b780847ab991" />
 </p>
 
 Setelah login, pengguna akan diarahkan ke halaman utama aplikasi **HELYA**, di mana mereka dapat:
