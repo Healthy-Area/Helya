@@ -155,8 +155,6 @@ Relasi utama:
 
 ## 💻 **Cara Penggunaan Program**
 
-## 💻 **Cara Penggunaan Program**
-
 ---
 
 ### 👤 **USER (Pengguna Aplikasi)**
