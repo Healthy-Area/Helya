@@ -145,81 +145,165 @@ Relasi utama:
 
 ## 💻 **Cara Penggunaan Program**
 
-###🔐LOGIN
-<img width="798" height="565" alt="Screenshot 2025-11-04 221337" src="https://github.com/user-attachments/assets/3f6383ba-36dd-4aa0-b8f2-f989676b41da" />
+## 💻 **Cara Penggunaan Program**
 
-Panduan awal penggunaan aplikasi HELYA dimulai dengan proses login melalui halaman utama. Pengguna diminta untuk mengisi kolom Username dan Password sesuai data yang telah terdaftar, kemudian menekan tombol Login untuk mengakses sistem. Setelah berhasil masuk, pengguna dapat melanjutkan ke fitur utama seperti pelaporan kondisi kesehatan pribadi maupun fasilitas kesehatan di lingkungan sekitar. Tampilan yang sederhana dan terpusat memudahkan proses autentikasi awal serta memastikan pengalaman penggunaan yang cepat dan efisien.
+---
 
-**👨🏻‍💻 Admin**
+### 👤 **USER (Pengguna Aplikasi)**
 
-Pengguna Admin HELYA bertugas memantau, mengelola, dan memperbarui data pengaduan kesehatan masyarakat serta fasilitas kesehatan. Melalui akun admin, proses pengawasan dan tindak lanjut laporan dapat dilakukan secara cepat dan terkoordinasi.
+#### 🔐 Login  
+
+<p align="center">
+  <img width="798" height="565" alt="Login Page" src="https://github.com/user-attachments/assets/3f6383ba-36dd-4aa0-b8f2-f989676b41da" />
+</p>
+
+Langkah pertama sebelum mengakses sistem adalah **login ke aplikasi HELYA**.  
+Pengguna wajib mengisi **Username** dan **Password** yang telah terdaftar, kemudian menekan tombol **Login**.
+
+Setelah berhasil masuk, akan muncul notifikasi konfirmasi login seperti berikut:
+
+<p align="center">
+  <img width="802" height="559" alt="Login Success" src="https://github.com/user-attachments/assets/3f6383ba-36dd-4aa0-b8f2-f989676b41da" />
+</p>
+
+Tampilan ini menunjukkan bahwa pengguna telah berhasil melakukan autentikasi dan siap menggunakan seluruh fitur di dalam sistem.
+
+---
+
+#### 🏠 **Beranda Pengguna**
+
+<p align="center">
+  <img width="799" height="667" alt="User Dashboard" src="https://github.com/user-attachments/assets/0849f23f-9d46-43d2-8acb-67e813040375.png" />
+</p>
+
+Setelah login, pengguna akan diarahkan ke halaman utama aplikasi **HELYA**, di mana mereka dapat:
+- Membuat **pengaduan kesehatan pribadi**.  
+- Membuat **pengaduan fasilitas kesehatan (puskesmas, rumah sakit, klinik)**.  
+- Melihat **riwayat laporan** serta status tindak lanjut pengaduan (*Menunggu, Diproses, Selesai*).  
+
+Tampilan sederhana dan responsif memudahkan pengguna dalam mengakses fitur utama dengan cepat dan efisien.  
+
+---
+
+#### 🩺 **Membuat Pengaduan**  
+Pengguna dapat memilih menu **“Pengaduan Kesehatan”** atau **“Pengaduan Fasilitas”**, lalu mengisi formulir berisi:  
+- Nama dan alamat pelapor.  
+- Jenis keluhan atau permasalahan.  
+- Keterangan tambahan atau foto pendukung (opsional).  
+
+Setelah dikirim, laporan otomatis tersimpan di basis data dan dapat dipantau statusnya oleh pengguna dan admin.
+
+---
+
+#### 📊 **Riwayat Laporan**  
+Pada bagian bawah halaman utama, terdapat tabel **Riwayat Pengaduan** yang menampilkan:
+- Nomor laporan  
+- Nama pelapor  
+- Jenis pengaduan  
+- Status laporan  
+- Tombol *Detail* untuk melihat informasi lebih lanjut  
+
+Fitur ini membantu pengguna memantau sejauh mana pengaduannya telah ditindaklanjuti oleh pihak berwenang.  
+
+---
+
+### 👨🏻‍💻 **ADMIN (Pengelola Sistem)**
+
+Pengguna **Admin HELYA** memiliki peran penting dalam memantau, mengelola, dan memperbarui data pengaduan masyarakat serta fasilitas kesehatan.  
+Melalui akun admin, proses pengawasan dan tindak lanjut laporan dapat dilakukan secara cepat, terkoordinasi, dan transparan.
+
+---
+
 <details>
-  <summary>1️⃣ Dashboard</summary>
-  <img width="783" height="529" alt="Screenshot 2025-11-04 221508" src="https://github.com/user-attachments/assets/8d532833-8e7b-4035-bab8-e66a51964ebc" />
+  <summary>📊 <b>1️⃣ Dashboard</b></summary>
 
-  Halaman Dashboard Admin HELYA berfungsi sebagai pusat pemantauan seluruh aktivitas pengaduan kesehatan di wilayah kerja. Tampilan ini menampilkan informasi statistik berupa jumlah pengaduan dari masyarakat dan fasilitas kesehatan, status penanganan laporan, serta grafik perbandingan jenis pengaduan dan jumlah pengaduan berdasarkan sumbernya. Desain dashboard menggunakan warna yang kontras untuk membedakan kategori dan status, seperti hijau untuk laporan selesai, kuning untuk sedang diproses, dan merah untuk belum diperiksa. Melalui tampilan ini, admin dapat dengan mudah memantau, menganalisis, dan mengevaluasi perkembangan penanganan pengaduan secara cepat dan efisien.
+  <p align="center">
+    <img width="783" height="529" alt="Dashboard Admin" src="https://github.com/user-attachments/assets/8d532833-8e7b-4035-bab8-e66a51964ebc" />
+  </p>
+
+  Halaman **Dashboard Admin HELYA** berfungsi sebagai pusat pemantauan seluruh aktivitas pengaduan di wilayah kerja.  
+  Tampilan ini menampilkan informasi statistik seperti jumlah pengaduan masyarakat, status penanganan laporan, serta grafik perbandingan jenis pengaduan.  
+
+  Desain dashboard menggunakan warna kontras untuk membedakan kategori status:
+  - 🟢 **Selesai**
+  - 🟡 **Sedang Diproses**
+  - 🔴 **Belum Diperiksa**
+
+  Melalui tampilan ini, admin dapat dengan mudah memantau, menganalisis, dan mengevaluasi perkembangan laporan secara efisien.
 </details>
 
+---
+
 <details>
-  <summary>2️⃣ Manajemen Akun</summary>
-  <img width="783" height="528" alt="Screenshot 2025-11-04 221542" src="https://github.com/user-attachments/assets/56d2e229-eb86-418c-bed7-6e65bbd1a5d9" />
+  <summary>👥 <b>2️⃣ Manajemen Akun</b></summary>
 
-  Halaman Manajemen Akun berfungsi untuk mengelola data pengguna dalam sistem HELYA, khususnya akun ketua RT yang bertugas memantau dan menindaklanjuti laporan kesehatan di wilayahnya. Tampilan ini menyediakan fitur pencarian berdasarkan nama, serta tombol untuk menambah, memperbarui, dan menghapus akun pengguna. Setiap data ditampilkan dalam tabel berisi nomor, nama, nomor RT, serta opsi tindakan. Desain halaman dibuat sederhana dan terstruktur agar admin dapat melakukan pengelolaan akun dengan cepat, akurat, dan efisien.
+  <p align="center">
+    <img width="783" height="528" alt="Manage Account" src="https://github.com/user-attachments/assets/56d2e229-eb86-418c-bed7-6e65bbd1a5d9" />
+  </p>
 
-  <img width="986" height="701" alt="Screenshot 2025-11-04 224825" src="https://github.com/user-attachments/assets/5ed07616-38a8-45e3-8ef9-1a72b09ba6ab" />
-  
-  admin dapat mencari Akun dengan menginput nama akun.
+  Halaman **Manajemen Akun** berfungsi untuk mengelola data pengguna dalam sistem HELYA, khususnya akun **Ketua RT** yang memantau dan menindaklanjuti laporan kesehatan di wilayahnya.  
+  Tampilan ini menyediakan fitur pencarian berdasarkan nama, serta tombol untuk menambah, memperbarui, dan menghapus akun pengguna.  
 
-  <img width="994" height="697" alt="Screenshot 2025-11-04 224927" src="https://github.com/user-attachments/assets/1d92fc7a-7286-4830-b2d1-b1cc749c4d4b" />
+  Setiap data ditampilkan dalam tabel berisi:
+  - Nomor akun  
+  - Nama pengguna  
+  - Nomor RT  
+  - Opsi tindakan (Edit / Hapus)  
 
+  ---
+  <p align="center">
+    <img width="986" height="701" alt="Search Account" src="https://github.com/user-attachments/assets/5ed07616-38a8-45e3-8ef9-1a72b09ba6ab" />
+  </p>
+  Admin dapat mencari akun dengan menginput nama akun.
+
+  ---
+  <p align="center">
+    <img width="994" height="697" alt="Add Account" src="https://github.com/user-attachments/assets/1d92fc7a-7286-4830-b2d1-b1cc749c4d4b" />
+  </p>
   Admin dapat menambahkan akun pengguna baru.
 
-  <img width="988" height="703" alt="Screenshot 2025-11-04 225113" src="https://github.com/user-attachments/assets/25f9f1ff-779e-44c7-b374-512dea5b3ff9" />
-
+  ---
+  <p align="center">
+    <img width="988" height="703" alt="Edit Account" src="https://github.com/user-attachments/assets/25f9f1ff-779e-44c7-b374-512dea5b3ff9" />
+  </p>
   Admin dapat mengubah data akun pengguna.
 
-  <img width="989" height="700" alt="Screenshot 2025-11-04 225211" src="https://github.com/user-attachments/assets/5da54832-ef1e-4f73-881f-c54aeaf8c6dc" />
+  ---
+  <p align="center">
+    <img width="989" height="700" alt="Delete Account" src="https://github.com/user-attachments/assets/5da54832-ef1e-4f73-881f-c54aeaf8c6dc" />
+  </p>
   Admin dapat menghapus akun pengguna yang telah dibuat.
-
-
-
-  
-
-  
 </details>
+
+---
 
 <details>
-  <summary>3️⃣ Manajemen Pengaduan</summary>
+  <summary>🧾 <b>3️⃣ Manajemen Pengaduan</b></summary>
 
-  Penjelasan atau isi proyek admin di sini.
-  
+  <p align="center">
+    <img width="999" height="750" alt="Manage Reports" src="https://github.com/user-attachments/assets/f2ca3667-eae0-4fdb-9b36-ada631b9dfef" />
+  </p>
+
+  Halaman **Manajemen Pengaduan** memungkinkan admin melihat seluruh laporan pengaduan dari masyarakat dan fasilitas kesehatan.  
+  Data ditampilkan dalam bentuk tabel dengan informasi seperti:
+  - Nama Pelapor  
+  - Jenis Pengaduan  
+  - Status Penanganan  
+  - Tanggal Laporan  
+  - Opsi Aksi (Lihat / Update / Hapus)
+
+  Fitur pencarian dan filter memudahkan admin untuk mengelompokkan laporan berdasarkan status (*Menunggu, Diproses, Selesai*).  
+  Desain halaman ini membantu admin memantau perkembangan setiap pengaduan dengan cepat dan akurat.
 </details>
+
+---
 
 <details>
-  <summary>4️⃣ Keluar</summary>
+  <summary>🚪 <b>4️⃣ Keluar</b></summary>
 
-  Penjelasan atau isi proyek admin di sini.
-  
+  Fitur **Keluar (Logout)** berfungsi untuk mengakhiri sesi admin dan memastikan keamanan akun.  
+  Setelah logout, sistem akan mengarahkan kembali ke halaman **Login**, menjaga agar akses aplikasi tetap aman dan terbatas hanya untuk pengguna yang berwenang.
 </details>
-
-
-<img width="999" height="750" alt="Screenshot 2025-11-04 223014" src="https://github.com/user-attachments/assets/f2ca3667-eae0-4fdb-9b36-ada631b9dfef" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
