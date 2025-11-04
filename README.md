@@ -152,6 +152,18 @@ Relasi utama:
 
 <img width="452" height="812" alt="image" src="https://github.com/user-attachments/assets/50310517-14de-4d33-85bd-47991befb19b" />
 
+<img width="319" height="924" alt="image" src="https://github.com/user-attachments/assets/c4215c3d-5664-45c7-b8c7-2ace7e0e3449" />
+
+<img width="321" height="914" alt="image" src="https://github.com/user-attachments/assets/2fb331d9-1e22-4464-bfda-2b4836114a09" />
+
+<img width="315" height="952" alt="image" src="https://github.com/user-attachments/assets/f0afb42b-ec14-44ba-9544-6e7dceeb8fb3" />
+
+<img width="316" height="166" alt="image" src="https://github.com/user-attachments/assets/31f7ad32-7007-491a-a8db-931af3162701" />
+
+
+
+
+
 
 ## 💻 **Cara Penggunaan Program**
 
